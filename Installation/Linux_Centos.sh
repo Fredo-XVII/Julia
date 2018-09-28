@@ -1,4 +1,4 @@
-
+#!/usr/bin/env julia
 # Installing Julia
 ## download julia
 curl https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.0-linux-x86_64.tar.gz -o julia.tar.gz
