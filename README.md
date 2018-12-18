@@ -7,6 +7,7 @@ Anything Julia
 
 # Courses:
   - https://www.coursera.org/learn/julia-programming/
+  -https://www.clustermonkey.net/download/Julia-Essentials/
   -
  
 # Resources
