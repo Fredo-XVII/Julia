@@ -14,4 +14,6 @@ Anything Julia
   - XRJulia - http://www2.math.uu.se/~yevry171/post/2018/04/10/r-extension-with-julia/
   -
   
-  
+# Package List
+  - https://pkg.julialang.org/pulse.html
+  - IJulia, QuantEcon
