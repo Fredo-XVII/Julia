@@ -5,6 +5,9 @@
   
 # Installation Notes:
   - In Julia: 
+    - run from file: julia -q simple.jl
+    - include(): like source() in R.
+    - install from GitHub: Pkg.add Gadfly$master
   
   - In Linux:
   
