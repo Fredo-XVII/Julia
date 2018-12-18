@@ -7,7 +7,7 @@ Anything Julia
 
 # Courses:
   - https://www.coursera.org/learn/julia-programming/
-  -https://www.clustermonkey.net/download/Julia-Essentials/
+  -https://www.clustermonkey.net/download/Julia-Essentials/,
   -
  
 # Resources
@@ -19,5 +19,5 @@ Anything Julia
   - IJulia, QuantEcon, DataFrame, DataFrames, DataFramesMeta, Gladfly, Plots, TensorFlow, VegaLight, Interact, 
   CSV, Calculus, Distributions, Feather, FileIO, Flux, Interpolations, JDBC, JuMP, Missings, ODBC, Optim, Plots,
   Query, RCall, RData, RDatasets, Roots, Suppressor, Turing, Dates, CategoricalArrays, DataVoyager, Queryverse, JuliaStats, StatsBase,
-  StatsFun, GLM, RegressionTables, FixedEffectModels, JuliaData
+  StatsFun, GLM, RegressionTables, FixedEffectModels, JuliaData, BlackBoxOptim, NLsolve, LeastSquaresOptim
 
