@@ -16,7 +16,7 @@ Anything Julia
   
 # Package List
   - https://pkg.julialang.org/pulse.html
-  - IJulia, QuantEcon, DataFrame, DataFrames, DataFramesMeta, Gladfly, Plots, TensorFlow, VegaLight, Interact, 
+  - IJulia, QuantEcon, DataFrame, DataFrames, DataFramesMeta, HIVE, Gladfly, Plots, TensorFlow, VegaLight, Interact, 
   CSV, Calculus, Distributions, Feather, FileIO, Flux, Interpolations, JDBC, JuMP, Missings, ODBC, Optim, Plots,
   Query, RCall, RData, RDatasets, Roots, Suppressor, Turing, Dates, CategoricalArrays, DataVoyager, Queryverse, JuliaStats, StatsBase,
   StatsFun, GLM, RegressionTables, FixedEffectModels, JuliaData, BlackBoxOptim, NLsolve, LeastSquaresOptim
