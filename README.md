@@ -22,5 +22,6 @@ Anything Julia
   StatsFun, GLM, RegressionTables, FixedEffectModels, JuliaData, BlackBoxOptim, NLsolve, LeastSquaresOptim, Elly
 
 # Hadoop
-  - Elly: connects to Yarn. https://github.com/JuliaParallel/Elly.jl/blob/master/YARN.md
-  - 
+  - Elly: connects to Yarn. 
+    - https://github.com/JuliaParallel/Elly.jl/blob/master/YARN.md
+    - https://github.com/JuliaParallel/Elly.jl/blob/master/HDFS.md
