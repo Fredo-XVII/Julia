@@ -25,3 +25,6 @@ Anything Julia
   - Elly: connects to Yarn. 
     - https://github.com/JuliaParallel/Elly.jl/blob/master/YARN.md
     - https://github.com/JuliaParallel/Elly.jl/blob/master/HDFS.md
+
+# Environmental Variable Settings
+  - ENV["JULIA_PKGRESOLVE_ACCURACY"]=2
