@@ -11,6 +11,7 @@
 ### Macros
  - @time: calculates run time of code
  - \approx: approximate equal sign.  
+ - @simd: go ahead and add/process in any order
   
 ### Packages
  - BenchmarkTools: run simulation of runtime of code.
