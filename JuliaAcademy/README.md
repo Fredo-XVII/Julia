@@ -24,6 +24,8 @@
  - pop!()
  - popfirst!(fib)
  - copy(): makes a new dataset or dataframe.
+ - map():
+ -
 
 ### Macros + {tab}: to call macro
  - @time: calculates run time of code
@@ -34,6 +36,9 @@
  - \integral:
  - \sqrt
  - \div: integer 
+ - @less:
+ - @which:
+ - @edit:
  
  - Make your own macro/unicode names:
   - \epsilon: 
