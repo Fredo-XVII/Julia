@@ -25,7 +25,8 @@
  - popfirst!(fib)
  - copy(): makes a new dataset or dataframe.
  - map():
- -
+ - reshape(): converts to row from col
+ - collect(): collects data and prints to the notebook.
 
 ### Macros + {tab}: to call macro
  - @time: calculates run time of code
@@ -39,6 +40,7 @@
  - @less:
  - @which:
  - @edit:
+ - @.: adds the 'dot' to the operators 
  
  - Make your own macro/unicode names:
   - \epsilon: 
