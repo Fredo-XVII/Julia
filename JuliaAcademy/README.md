@@ -27,6 +27,7 @@
  - map():
  - reshape(): converts to row from col
  - collect(): collects data and prints to the notebook.
+ - savefig("filename"): savefig("plot.svg"):
 
 ### Macros + {tab}: to call macro
  - @time: calculates run time of code
@@ -45,7 +46,8 @@
  - Make your own macro/unicode names:
   - \epsilon: 
   
-### Packages
+### Packages: LOAD_PATH
+ - Pkg.add(""): 
  - BenchmarkTools: run simulation of runtime of code.
  - LinearAlgebra:
   - zeros(5, 5): 5x5 zero matrix
@@ -57,3 +59,18 @@
 ### Code
  1. import Pkg; Pkg.add("DataFrames")
 using DataFrames
+
+### Saving workspace/data to disk
+ - CSV.jl
+ - serialize()/deserialize():
+  - using Seilaztion
+    open("workspace.jls","w+") do i0
+       serialize(io,Dict(:S => S)
+       serialize(io,Dict(:f => f)
+    end
+    workspace = open(deserialize,"workspace.jls")
+    workspace[:f](3)
+    f(x) = 3x + 5x^2 - functions don't serialize across sessions.
+ - HDF5.jl
+ - **names(Main)**: ls() in R
+ -  
