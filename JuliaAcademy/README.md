@@ -23,6 +23,7 @@
  - pushfirst!(fib, 0)
  - pop!()
  - popfirst!(fib)
+ - copy(): makes a new dataset or dataframe.
 
 ### Macros + {tab}: to call macro
  - @time: calculates run time of code
