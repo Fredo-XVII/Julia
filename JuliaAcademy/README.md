@@ -9,6 +9,9 @@
  - pyimport("numpy")["sum"]: imports python packages
  - typeof(1.0)
  - dump(): str() in R
+ - unique:
+ - sort:
+ 
 
 ### Macros
  - @time: calculates run time of code
@@ -22,4 +25,4 @@
   - zeros(5, 5): 5x5 zero matrix
   
  - Interact: html widget - Slider
- - 
+  - @manipulate:
