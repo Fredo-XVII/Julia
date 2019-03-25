@@ -53,3 +53,7 @@
  - Interact: html widget - Slider
   - @manipulate:
  - Colors:
+
+### Code
+ 1. import Pkg; Pkg.add("DataFrames")
+using DataFrames
