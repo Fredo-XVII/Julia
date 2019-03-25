@@ -11,6 +11,7 @@
  - dump(): str() in R
  - unique():
  - sort():
+ - sort!(): "bang" something is going to change to the arguement you pass in
  - show():
  - error("message"):
  - big(): true representation of a number, out to lots of decimals
@@ -18,6 +19,10 @@
  - lenght()
  - size()
  - axes() 
+ - push!()
+ - pushfirst!(fib, 0)
+ - pop!()
+ - popfirst!(fib)
 
 ### Macros + {tab}: to call macro
  - @time: calculates run time of code
