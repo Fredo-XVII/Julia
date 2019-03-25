@@ -13,11 +13,13 @@
  - sort:
  
 
-### Macros
+### Macros + {tab}: to call macro
  - @time: calculates run time of code
  - \approx: approximate equal sign.  
  - @simd: go ahead and add/process in any order
  - \in: Gives the math Element sign
+ - \pi:
+ - \integral:
   
 ### Packages
  - BenchmarkTools: run simulation of runtime of code.
@@ -26,3 +28,4 @@
   
  - Interact: html widget - Slider
   - @manipulate:
+ - Colors:
