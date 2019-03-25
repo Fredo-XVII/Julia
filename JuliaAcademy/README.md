@@ -9,8 +9,10 @@
  - pyimport("numpy")["sum"]: imports python packages
  - typeof(1.0)
  - dump(): str() in R
- - unique:
- - sort:
+ - unique():
+ - sort():
+ - show():
+ - error("message"):
  
 
 ### Macros + {tab}: to call macro
@@ -20,6 +22,8 @@
  - \in: Gives the math Element sign
  - \pi:
  - \integral:
+ - \sqrt
+ - \div: integer 
   
 ### Packages
  - BenchmarkTools: run simulation of runtime of code.
