@@ -7,6 +7,7 @@
 
 ### Functions
  - @time: calculates run time of code
+ - \approx: approximate equal sign.
 
 ### Packages
  - BenchmarkTools: run simulation of runtime of code.
