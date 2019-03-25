@@ -13,7 +13,11 @@
  - sort():
  - show():
  - error("message"):
- 
+ - big(): true representation of a number, out to lots of decimals
+ - """ string """: Allows for "" within the Triple Quotes. **NO Single Quotes in Julia**
+ - lenght()
+ - size()
+ - axes() 
 
 ### Macros + {tab}: to call macro
  - @time: calculates run time of code
@@ -24,6 +28,9 @@
  - \integral:
  - \sqrt
  - \div: integer 
+ 
+ - Make your own macro/unicode names:
+  - \epsilon: 
   
 ### Packages
  - BenchmarkTools: run simulation of runtime of code.
