@@ -8,6 +8,7 @@
 ### Functions
  - @time: calculates run time of code
  - \approx: approximate equal sign.
+ - pyimport("numpy")["sum"]: imports python packages
 
 ### Packages
  - BenchmarkTools: run simulation of runtime of code.
