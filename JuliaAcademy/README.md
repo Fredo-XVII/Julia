@@ -28,6 +28,15 @@
  - reshape(): converts to row from col
  - collect(): collects data and prints to the notebook.
  - savefig("filename"): savefig("plot.svg"):
+ 
+ - **Building Functions:**
+  - methods(): tells what the methods are for the function
+  - supertype(supertype(typeof(number))): see the hiearchy of the data types
+  - Diagonal Dispatch/Method Dispatch: 
+   - f(a::T, b::T) where {T<:Number} = 
+  - Varargs Methods:
+   - f(args::Number...) = 
+   - f(args::T...) where {T<:Number} = 
 
 ### Macros + {tab}: to call macro
  - @time: calculates run time of code
