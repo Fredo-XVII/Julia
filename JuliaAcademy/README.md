@@ -28,6 +28,9 @@
  - reshape(): converts to row from col
  - collect(): collects data and prints to the notebook.
  - savefig("filename"): savefig("plot.svg"):
+ - isa(a,b): is a = b 
+ - plot():
+ - plot!():
  
  - **Building Functions:**
   - methods(): tells what the methods are for the function
@@ -51,6 +54,7 @@
  - @which:
  - @edit:
  - @.: adds the 'dot' to the operators 
+ - @code_native t():
  
  - Make your own macro/unicode names:
   - \epsilon: 
