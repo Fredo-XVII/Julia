@@ -2,9 +2,15 @@
 
 # Class Notes
 
-### Shortcuts
+### Shortcuts Jupyter Notebooks
  - [escape a, escape b, escape x] = [new cell above, new cell below, delete cell]
 
+### CMD Julia
+ - julia -i file_name: run file, open REPL
+ - julia - E 'code': runc code, print results to console
+ - julia -e 'code': execute code, no print
+ - julie --project=. script.jl: run package in current directory.
+ 
 ### Functions
  - pyimport("numpy")["sum"]: imports python packages
  - typeof(1.0)
@@ -31,6 +37,10 @@
  - isa(a,b): is a = b 
  - plot():
  - plot!():
+ - length():
+ - include("script.jl") - source() in R
+ - skipmissing(data): remove NA
+ - by(data, group by col, :col => mean): group by means
  
  - **Building Functions:**
   - methods(): tells what the methods are for the function
@@ -40,6 +50,11 @@
   - Varargs Methods:
    - f(args::Number...) = 
    - f(args::T...) where {T<:Number} = 
+  - Create a type:
+   - struct fx_name <: Integer
+      idx::Int
+      len::Int
+     end 
 
 ### Macros + {tab}: to call macro
  - @time: calculates run time of code
@@ -68,6 +83,15 @@
  - Interact: html widget - Slider
   - @manipulate:
  - Colors:
+ - Pipeline:
+ - .Threads: 
+  - nthreads()
+  - @threads
+ - PackageCompiler.jl
+  - build_executable: compiles code for faster runs
+ - **Build Packages**: 
+  - generate Packag_name (no parenths after generate)
+  - activate .: active package from the package directory
 
 ### Code
  1. import Pkg; Pkg.add("DataFrames")
