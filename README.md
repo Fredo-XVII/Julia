@@ -20,6 +20,9 @@ Anything Julia
   CSV, Calculus, Distributions, Feather, FileIO, Flux, Interpolations, JDBC, JuMP, Missings, ODBC, Optim, Plots,
   Query, RCall, RData, RDatasets, Roots, Suppressor, Turing, Dates, CategoricalArrays, DataVoyager, Queryverse, JuliaStats, StatsBase,
   StatsFun, GLM, RegressionTables, FixedEffectModels, JuliaData, BlackBoxOptim, NLsolve, LeastSquaresOptim, Elly
+  - TableTraits.jl Packages:
+    - 
+  
 
 # Hadoop
   - Elly: connects to Yarn. 
