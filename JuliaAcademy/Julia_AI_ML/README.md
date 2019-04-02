@@ -26,5 +26,5 @@
   - Plots:
   - Statistics:
   - Interact:
-  - 
+  - Flux:
 
