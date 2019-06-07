@@ -19,7 +19,7 @@ Anything Julia
   - IJulia, QuantEcon, DataFrame, DataFrames, DataFramesMeta, HIVE, Gladfly, Plots, TensorFlow, VegaLight, Interact, 
   CSV, Calculus, Distributions, Feather, FileIO, Flux, Interpolations, JDBC, JuMP, Missings, ODBC, Optim, Plots,
   Query, RCall, RData, RDatasets, Roots, Suppressor, Turing, Dates, CategoricalArrays, DataVoyager, Queryverse, JuliaStats, StatsBase,
-  StatsFun, GLM, RegressionTables, FixedEffectModels, JuliaData, BlackBoxOptim, NLsolve, LeastSquaresOptim, Elly
+  StatsFun, GLM, RegressionTables, FixedEffectModels, JuliaData, BlackBoxOptim, NLsolve, LeastSquaresOptim, Elly, Tables, IndexedTables, JuliaDB, JuliaTS, Spark,
   - TableTraits.jl Packages:
     - 
   
