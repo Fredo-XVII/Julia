@@ -1,0 +1,3 @@
+bogumilkaminski/pl./about
+
+CODE: async notebook(dir=".") # Prevents from locking the Julia terminal.
