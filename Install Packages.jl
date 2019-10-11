@@ -1,3 +1,7 @@
+# This is my first Julia Script
+# Let's use it to document packages
+
+# Use julia> include("path/to/script-name.jl") to source the file.
 
 using Pkg
 
@@ -43,6 +47,8 @@ Pkg.add("DataFrames")
 Pkg.add("CSV")
 
  Pkg.add("DataValues")
+
+ Pkg.add("ODBC")
 
 Pkg.installed()
 
