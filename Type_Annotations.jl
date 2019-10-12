@@ -125,3 +125,18 @@ function bar(x ::Int64) ::Float32
 end
 
 bar(1)
+
+#Function return types
+function sqrt_or_nothing(x ::Float64) ::Union{Float64, Nothing}
+    x < 0.0 ? nothing : √x
+end
+
+@show sqrt_or_nothing(2.0)
+@show sqrt_or_nothing(-2.0)
+
+    function bar_clipped(x ::Float64)
+        x < 0.0 ? 0 : sin(2π * x)
+    end
+
+typeof(bar_clipped(0.75))
+typeof(bar_clipped(-0.75))
