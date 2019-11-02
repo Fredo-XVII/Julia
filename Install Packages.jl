@@ -50,6 +50,8 @@ Pkg.add("CSV")
 
  Pkg.add("ODBC")
 
+ Pkg.add("SpecialFunctions")
+
 Pkg.installed()
 
 Pkg.update()

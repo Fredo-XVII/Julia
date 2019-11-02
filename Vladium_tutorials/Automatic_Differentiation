@@ -1,0 +1,59 @@
+# Automatic Differentiation
+# Reference: http://vladium.com/tutorials/study_julia_with_me/multiple_dispatch/
+
+# Differentiate This
+function myerf(x ::Number)
+  ∑ = 0.0
+  x² = x * x
+  for k in 0 : 20 # hardcoding the number of summation terms for simplicity
+      ∑ += x / (factorial(k) * (2k + 1))
+      x *= -x²
+  end
+  return 2.0 / √π * ∑
+end
+
+# My sum-of-the-series implementation seems correct2:
+using SpecialFunctions
+
+myerf(0.7), erf(0.7)
+
+
+# Baby Julia steps: operators, functions, and methods
+g(x) = x * (x + x)
+
+g_tree = :(x * (x + x)) # ':(...)' is the "quoting" operator here: it parses what's inside into a syntax tree
+
+typeof(g_tree)
+dump(g_tree)
+
+# Julia operators are functions
+x = 2
+x + x # Operator form
++(x,x) # function form
+
+# Julia functions are “overloadable” (or is it “overridable”? 😄)
+x * x
+"x" * "x"
+
+ methods(*)
+
+struct MyNum <:Number
+    v ::Float64
+end
+
+ MyNum(2.0) * MyNum(2.0)
+
+using Base
+Base.:(*)(lhs ::MyNum, rhs ::MyNum) = MyNum(lhs.v * rhs.v)
+
+MyNum(2.0) * MyNum(2.0)
+
+methods(MyNum)
+
+methods(*)
+
+# binary ops:
+Base.:(+)(lhs ::MyNum, rhs ::MyNum) = MyNum(lhs.v + rhs.v)
+Base.:(-)(lhs ::MyNum, rhs ::MyNum) = MyNum(lhs.v - rhs.v)
+Base.:(*)(lhs ::MyNum, rhs ::MyNum) = MyNum(lhs.v * rhs.v)
+Base.:(\)(lhs ::MyNum, rhs ::MyNum) = MyNum(lhs.v / rhs.v)
